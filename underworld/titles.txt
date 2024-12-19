@@ -1,0 +1,842 @@
+//TITLES FOR HALF-LIFE
+//////////////////////////////////////////////////////////////////////
+// Game messages
+
+Game_enoughofclass
+{
+Your team already has enough of that class.
+}
+
+Game_nochangeclass
+{
+You cannot change class.
+}
+
+Game_changeclass
+{
+After dying, you will return as a %s
+}
+
+Game_mustteam
+{
+You must join a team first.
+}
+
+Game_random
+{
+Random Playerclass.
+}
+
+Game_teamfull
+{
+That team is full. Pick another.
+}
+
+Game_playerjoin
+{
+%s has joined the game
+}
+
+RandomPC
+{
+Random Playerclass
+}
+
+Observer
+{
+OBSERVER
+}
+
+//////////////////////////////////////////////////////////////////////
+// Admin
+
+Admin_nopassword
+{
+Server has no Admin password set (tfc_adminpwd)
+}
+
+Admin_access
+{
+Admin Password accepted. Admin rights granted.
+}
+
+Admin_badpassword
+{
+Admin Password incorrect.
+}
+
+Admin_noplayers
+{
+Players In Game : %s
+}
+
+Admin_noteamplayers
+{
+Players In Team %s: %s
+}
+
+Admin_gameempty
+{
+No other players in the game.
+}
+
+Admin_kickban
+{
+%s (%s)  KICK/BAN/NEXT?
+}
+
+Admin_listip
+{
+%s (%s)
+}
+
+Admin_endlist
+{
+End of player list
+}
+
+Admin_kick
+{
+%s was kicked by %s
+}
+
+Admin_ban
+{
+%s was banned by %s
+}
+
+Admin_ceasefire
+{
+CEASE FIRE
+}
+
+AKick_kicked
+{
+%s was kicked for killing teammates.
+}
+
+AKick_warn
+{
+Kill one more teammate, and you will be
+removed from this server.
+}
+
+//////////////////////////////////////////////////////////////////////
+// Items
+
+Item_medikitammo
+{
+You gather %s medikit ammo
+}
+
+Grenade
+{
+grenade
+}
+
+Canister
+{
+canister
+}
+
+Grenade_found
+{
+You found a %s %s
+}
+
+
+//////////////////////////////////////////////////////////////////////
+// Menus
+Menu_chooseteam
+{
+=== Choose Your Team ===
+
+}
+
+Menu_class
+{
+=== Choose Your Class ===
+
+}
+
+Menu_repeathelp
+{
+Press 8 to see this help again
+}
+
+
+//////////////////////////////////////////////////////////////////////
+// MATCH SCORING
+Match_results
+{
+=------= MATCH RESULTS =------=
+}
+
+Match_draw
+{
+ DRAW 
+}
+
+Match_winner
+{
+%s defeated %s
+}
+
+Match_losers3
+{
+and %s
+}
+
+Match_losers4
+{
+, %s
+}
+
+Match_team
+{
+
+=------= TEAM%s RESULTS =------=
+%s players. 
+}
+
+Match_teamdump
+{
+%s frags, %s unaccounted for.
+%s team score.
+}
+
+//////////////////////////////////////////////////////////////////////////
+// Maps
+
+// All centered for now
+$position -1 0.7
+$effect 2
+// This is the final color
+$color 200 200 200
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+$color 0 225 0
+
+
+//////////////////////////////////////////////////////////////////////////
+// TEAM MENU
+Team_AutoAssign
+{
+AUTO ASSIGN
+}
+
+
+//////////////////////////////////////////////////////////////////////////
+// other menu text
+Menu_OK
+{
+OK
+}
+
+Menu_Cancel
+{
+CANCEL
+}
+
+Menu_Spectate
+{
+SPECTATE
+}
+
+Spec_Mode_Inset0
+{
+Inset Window Off
+}
+
+Spec_Mode_Inset1
+{
+Inset Chase-Camera Mode
+}
+
+Spec_Mode_Inset2
+{
+Inset First Person Mode
+}
+
+Spec_Mode_Inset3
+{
+Inset Map Mode
+}
+
+// Spectator Menu
+Spec_Mode1
+{
+Locked Chase-Camera
+}
+
+Spec_Mode2
+{
+Free Chase-Camera
+}
+
+Spec_Mode3
+{
+Free-Look
+}
+
+Spec_Mode4
+{
+First Person
+}
+
+Spec_Mode5
+{
+Free Map Overview
+}
+
+Spec_Mode6
+{
+Chase Map Overview
+}
+
+Spec_NoTarget
+{
+No valid targets. Cannot switch to Chase-Camera Mode.
+}
+
+Spec_Help
+{
+ENTER to Play  FIRE for Next Target  ALT-FIRE for Prev Target  JUMP to Change Modes
+}
+
+Spec_Help_Title
+{
+Spectator Mode
+}
+
+Spec_Help_Text
+{
+Use the following keys to change view styles:
+
+ FIRE1 - Chase next player
+ FIRE2 - Chase previous player
+ JUMP - Change view modes
+ USE - Change inset window mode
+ 
+ DUCK  - Enable spectator menu
+  
+In Overview Map Mode move around with:
+
+ MOVELEFT - move left
+ MOVERIGHT - move right
+ FORWARD - zoom in
+ BACK - zoom out
+ MOUSE - rotate around map/target
+}
+
+Spec_Slow_Motion
+{
+Slow Motion
+}
+
+Spec_Replay
+{
+Instant Replay
+}
+
+Spec_Auto
+{
+Auto
+}
+
+Spec_Time
+{
+Time
+}
+
+Spec_Map
+{
+Map
+}
+
+Spectators
+{
+Spectators
+}
+
+Unassigned
+{
+Unassigned
+}
+
+// Scoreboard
+TEAMS
+{
+TEAMS
+}
+
+PLAYERS
+{
+PLAYERS
+}
+
+CLASS
+{
+CLASS
+}
+
+SCORE
+{
+SCORE
+}
+
+DEATHS
+{
+DEATHS
+}
+
+LATENCY
+{
+LATENCY
+}
+
+VOICE
+{
+VOICE
+}
+
+Disguise_Lost
+{
+You've lost your Disguise!
+}
+
+Game_unknown_command
+{
+Unknown command: %s
+}
+
+Detpack_blocking_door_destroyed
+{
+Your detpack was blocking a 
+door and has been removed.
+}
+
+Mic_Volume
+{
+Mic Volume
+}
+
+Speaker_Volume
+{
+Speaker Volume
+}
+
+Voice_Properties
+{
+Voice Properties
+}
+
+Map_Description_not_available
+{
+Map Description not available.
+}
+
+Player
+{
+player
+}
+
+Player_plural
+{
+players
+}
+
+Muted
+{
+You have muted %s.
+}
+
+Unmuted
+{
+You have unmuted %s.
+}
+
+No_longer_hear_that_player
+{
+You will no longer hear that player speak.
+}
+
+
+OBS_NONE
+{
+Camera Options
+}
+
+OBS_CHASE_LOCKED
+{
+Locked Chase-Cam
+}
+
+OBS_CHASE_FREE
+{
+Free Chase-Cam
+}
+
+OBS_ROAMING
+{
+Roaming
+}
+
+OBS_IN_EYE
+{
+First Person
+}
+
+OBS_MAP_FREE
+{
+Free Overview
+}
+
+OBS_MAP_CHASE
+{
+Chase-Cam Overview
+}
+
+SPECT_OPTIONS
+{
+Options
+}
+
+CAM_OPTIONS
+{
+Camera Options
+}
+
+Spec_Duck
+{
+Press DUCK for Spectator Menu
+}
+
+/////////////////////////////////////////////////////////
+// Underworld
+
+victim_captured_by_vamps
+{
+The Hybrid has been captured by the Vampires.
+}
+
+victim_captured_by_lycans
+{
+The Hybrid has been captured by the Lycans.
+}
+
+victim_escaped
+{
+The Hybrid has escaped!
+}
+
+victim_killed
+{
+You have killed the Hybrid!
+}
+
+victim_following
+{
+The Hybrid is now under your control.
+}
+
+victim_released
+{
+The Hybrid is no longer under your control.
+}
+
+uw_factory_goal1
+{
+The Warehouse entrance door has been unlocked!
+}
+
+uw_factory_goal2
+{
+The Furnace Room's entrance doors have been unlocked!
+}
+
+uw_factory_goal3
+{
+The Furnace Room's exit doors have been unlocked!
+}
+
+uw_factory_goal4
+{
+The Hybrid's cage has been opened!
+}
+
+changeclass_delayed
+{
+New character selection will take effect after dying.
+}
+
+
+/////////////////////////////////////////////////////////
+// Underworld Model Buttons
+
+Leader0
+{
+Vampire / Lycan Leader
+}
+
+Master0
+{
+Master / Specialist
+}
+
+Enforcer0
+{
+Elder / Enforcer
+}
+
+Hunter0
+{
+Assassin / Rebel
+}
+
+Random0
+{
+Random
+}
+
+Leader1
+{
+The Leader
+}
+
+Master1
+{
+The Master
+}
+
+Enforcer1
+{
+The Elder
+}
+
+Hunter1
+{
+The Assassin
+}
+
+Random1
+{
+Random
+}
+
+Leader2
+{
+The Leader
+}
+
+Master2
+{
+The Specialist
+}
+
+Enforcer2
+{
+The Enforcer
+}
+
+Hunter2
+{
+The Rebel
+}
+
+Random2
+{
+Random
+}
+
+/////////////////////////////////////////////////////////
+// Underworld Model Title
+
+Title_leader1
+{
+Coven Leader
+}
+
+Title_master1
+{
+Master Death Dealer
+}
+
+Title_enforcer1
+{
+Vampire Elder
+}
+
+Title_hunter1
+{
+Assassin
+}
+
+Title_leader2
+{
+Resistance Leader
+}
+
+Title_master2
+{
+Weapons Specialist
+}
+
+Title_enforcer2
+{
+Enforcer
+}
+
+Title_hunter2
+{
+Lycan Rebel
+}
+
+Title_randompc1
+{
+Random Vampire
+}
+
+Title_randompc2
+{
+Random Lycan
+}
+
+Title_SelectYourTeam
+{
+WHICH SIDE WILL YOU CHOOSE?
+}
+
+Title_SelectYourClass
+{
+CHARACTER SELECTION
+}
+
+Title_CurrentlyOnYourTeam
+{
+There are %d on your team
+}
+
+/////////////////////////////////////////////////////////
+// Underworld Model Help
+
+Help_leader1
+{
+Entrusted with the leadership of the Vampires while the Elder sleeps, the Coven Leader controls the Vampire coterie. He is aristocratic and sophisticated, while obsessed with the trappings of power.
+
+ARSENAL
+Whip - medium range weapon
+Usp - lycan killing hand gun
+MP5K - 9mm automatic weapon
+M4 - sniper rifle
+Stars - long range hand thrown weapon
+}
+
+Help_master1
+{
+As lethal as she is beautiful, the Master Death Dealer has vowed to wipe all Lycans from the face of the earth.
+
+
+
+ARSENAL
+Hand Blade - close range bladed weapon
+P99 - personal hand gun
+MP5K - 9mm automatic weapon
+M4 - sniper rifle
+Stars - long range hand thrown weapon
+}
+
+Help_enforcer1
+{
+Sired over 1000 years ago, the Vampire Elder is the most powerful and feared member of the Vampire clan. After 200 years of hibernation, the Elder has awakened to reclaim his post as ruler of the Vampire Coven.
+
+ARSENAL
+Hand Blade - close range bladed weapon
+Usp - lycan killing hand gun
+MP5K - 9mm automatic weapon
+Vulcan - automatic gatling gun
+Stars - long range hand thrown weapon
+}
+
+Help_hunter1
+{
+An elite class of warrior Vampires, the Assassins' primary objective is to hunt down and exterminate Lycans.
+
+
+
+ARSENAL
+Hand Blade - close range bladed weapon
+Usp - lycan killing hand gun
+MP5K - 9mm automatic weapon
+Spiders - venomous Black Widow spiders
+Stars - long range hand thrown weapon
+}
+
+Help_randompc1
+{
+Randomly select a Vampire character for you.
+}
+
+Help_leader2
+{
+The Resistance Leader is the only Lycan that the Vampires truly fear. Intelligent, powerful and ruthless, he will stop at nothing to destroy the Vampires.
+
+ARSENAL
+Armblade - close range bladed weapon
+Pistol - vampire killing hand gun
+HK TMP - 9mm automatic weapon
+M4 - sniper rifle
+Grenades - high explosive frag grenades
+}
+
+Help_master2
+{
+A master of weapons ancient and modern, the Weapons Specialist is responsible for leveling the playing field in the fight against the Vampires.
+
+ARSENAL
+Armblade - close range bladed weapon
+Pistol - vampire killing hand gun
+HK TMP - 9mm automatic weapon
+M4 - sniper rifle
+Grenades - high explosive frag grenades
+}
+
+Help_enforcer2
+{
+Massive and deadly, the Lycan Enforcer combines size and strength with tactical brilliance.
+
+
+ARSENAL
+Armblade - close range bladed weapon
+Pistol - vampire killing hand gun
+HK TMP - 9mm automatic weapon
+Vulcan - automatic gatling gun
+Grenades - high explosive frag grenades
+}
+
+Help_hunter2
+{
+A member of the Lycan resistance, the Lycan prowls the city streets and tunnels searching for victims while eluding Vampires.
+
+ARSENAL
+Armblade - close range bladed weapon
+Pistol - vampire killing hand gun
+HK TMP - 9mm automatic weapon
+Spiders - venomous Black Widow spiders
+Grenades - high explosive frag grenades
+}
+
+Help_randompc2
+{
+Randomly select a Lycan character for you.
+}
+

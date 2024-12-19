@@ -1,0 +1,52 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+UNDERWORLD BLOODLINE: MP mod based on Screen Gems movie Underworld
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+WARNING: HalfLife Registered Ver. 1.1.1.0 (or higher) is Required!
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INSTALLATION:
+
+1) Make sure you have Half-Life version 1.1.1.0 or higher.
+To update your version of Half-Life use Sierra's AutoUpdate
+feature.
+
+2) Install Underworld into the Half-Life directory.
+
+3) Now start Half-Life normally.
+
+4) From the main menu, click on "Custom Game". You will see
+now a list of all the mods available on your computer. Select 
+"Underworld" and click on "Activate". (If you don't see an
+option "Custom game" then you have to update your version
+of Half-Life!)
+
+5) Select "Done" to return to the main Half-Life menu. The
+Underworld logo should appear on the screen.
+
+6) Now choose "Play Underworld" from the menu to start a new
+game.
+
+NOTE: Please consult Sierra technical help and your Half-Life
+documentation for additional help on how to run custom games 
+in version 1.1.1.0 (or higher).
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+UNDERWORLD BLOODLINE GAME CREDITS:
+
+Produced by: Big Spaceship and Black Widow Games
+
+Design/Coding: Einar Saukas
+Design/Mapping: Neil Manke
+Modeling: Sebastian Croon
+Animations: Will Sherriff
+Textures: Big Spaceship, Marc Schröder, Valve, Neil Manke  
+Custom Sounds: Magnus Jansén
+Final Art: Big Spaceship
+Linux Compiler: Ulix Mello
+Testing: [TiC] clan, DeadCell Clan
+
+* Includes additional material appearing courtesy of PC Gamer
+* Some animations based on Gooseman's work for Counter-Strike
+* Additional thanks to Valve for their support
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

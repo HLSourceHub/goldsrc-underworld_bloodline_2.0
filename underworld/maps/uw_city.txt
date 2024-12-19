@@ -1,0 +1,46 @@
+HUNT THE HYBRID!
+
+Objective: Your team must hypnotize a Hybrid and lead
+him to the prison cell at your base. Use E to pick up
+or use objects, and to capture or release a Hybrid.
+
+Scoring: Gain 10 points for capturing a Hybrid, but
+loose 5 points if you kill him.
+
+Locations:
+- Vampire cell is on the upper floor of the mansion.
+- Lycan cell is at the end of the subway tunnel.
+
+Note: Vampires leap higher and Lycans move faster in
+superhuman mode. Hold down SHIFT key to activate.
+
+
+
+MOVEMENT CONTROLS
+Mouse - look
+W - move forward
+S - move back
+A - move left
+D - move right
+CTRL - duck
+SPACE - jump
+CTRL+SPACE - high jump
+
+WEAPON CONTROLS
+Mouse 1 - fire/attack
+Mouse 2 - secondary attack
+R - reload
+[ - next weapon
+] - previous weapon
+Q - last used weapon
+1-5 - select weapon
+
+MENU CONTROLS
+N - change team
+B - change character
+M - other options
+
+TEAM CONTROLS
+Y - chat
+U - team chat
+TAB - view scores

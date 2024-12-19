@@ -1,0 +1,46 @@
+// Underworld Texture Types
+// NOTE: only the first 12 characters of the texture name are used
+
+
+// 'M' Metal/Grate
+//================
+
+m po_freecsbt
+m po_sewertop
+m po_substrtop
+m po_signbarsd
+m po_subalu
+m po_subaluticch
+
+// 'w' Wood
+// ========
+
+w po_hardwdfloor
+w po_cratewood
+w cxwoodh
+w cxwoodi
+w cxwoodd
+w cxroofa
+
+// 'D' Carpet/Grass/Dirt
+// =====================
+
+d po_grass
+d out_dirt2
+d cxruga
+d po_subtrinds1
+
+// 'T' Tile
+// ========
+
+t bs_cxgroundjorn
+t bs_cxgroundj
+t bs_cxgroundjtri
+t cxgroundf
+t cxmarblee
+t cxmarblec
+
+// 'S' Slosh Liquid
+// ==========
+
+s watdrkblu

@@ -1,0 +1,46 @@
+EVACUATE THE HYBRID!
+
+Objective: Lycans must lead the Hybrid from Train
+Platform 1 through the Vampire infested city to a
+waiting truck at Platform 3. The train must be used
+to break through the Platform 3 railway tunnel door.
+
+Use E to drive train, activate rail switch, pick up
+objects, and to capture or release the Hybrid.
+
+Scoring: Lycans gain 40 points for evacuating the
+Hybrid, any team looses 5 points for killing him.
+
+Note: Vampires leap higher and Lycans move faster in
+superhuman mode. Hold down SHIFT key to activate.
+
+
+
+MOVEMENT CONTROLS
+Mouse - look
+W - move forward
+S - move back
+A - move left
+D - move right
+CTRL - duck
+SPACE - jump
+CTRL+SPACE - high jump
+
+WEAPON CONTROLS
+Mouse 1 - fire/attack
+Mouse 2 - secondary attack
+R - reload
+[ - next weapon
+] - previous weapon
+Q - last used weapon
+1-5 - select weapon
+
+MENU CONTROLS
+N - change team
+B - change character
+M - other options
+
+TEAM CONTROLS
+Y - chat
+U - team chat
+TAB - view scores

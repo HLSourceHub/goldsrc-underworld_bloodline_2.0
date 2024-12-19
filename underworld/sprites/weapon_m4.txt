@@ -1,0 +1,15 @@
+14
+weapon		320 tfchud02	175	0	80	20
+weapon_s		320 tfchud02	175	100	80	20
+ammo			320 320hud2	18	16	18	18
+crosshair		320 crosshairs	48	0	24	24
+autoaim		320 crosshairs	24	72	24	24
+zoom			320 ofch2	0	0	256	256
+zoom_autoaim	320 ofch2	0	0	256	256
+weapon		640 tfchud01	0	0	170	45
+weapon_s		640 tfchud02	0	0	170	45
+ammo			640 640hud7	24	72	24	24
+crosshair		640 crosshairs	48	0	24	24
+autoaim		640 crosshairs	24	72	24	24
+zoom			640 ofch2	0	0	256	256
+zoom_autoaim	640 ofch2	0	0	256	256

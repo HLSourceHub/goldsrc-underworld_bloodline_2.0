@@ -1,0 +1,15 @@
+ASSAULT AND RESCUE!
+
+Objective: Vampires have imprisoned the Hybrid
+deep within a factory complex. Lycans must
+assault the building to rescue the Hybrid and
+help him escape through the cargo elevator.
+
+Use E to activate door locks, and to capture or
+release the Hybrid.
+
+Scoring: Lycans gain 5 points for unlocked doors
+and 15 for rescuing the Hybrid, any team looses
+5 points for killing him.
+
+Designed by: Black Widow Games

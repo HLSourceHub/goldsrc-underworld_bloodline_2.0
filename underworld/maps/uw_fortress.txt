@@ -1,0 +1,15 @@
+CAPTURE THE HYBRID!
+
+Objective: Invade the enemy Fortress and rescue the
+Hybrid from the "Holding Cell" in the Tower. Lead
+the Hybrid back to your base and into your "Capture
+Cell". Use E to open or close cell doors, and to
+capture or release a Hybrid.
+
+Scoring: Gain 20 points for capturing a Hybrid, but
+loose 5 points if you kill him.
+
+Note: Vampires leap higher and Lycans move faster in
+superhuman mode. Hold down SHIFT key to activate.
+
+Designed by: Black Widow Games

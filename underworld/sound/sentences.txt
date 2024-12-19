@@ -1,0 +1,478 @@
+// HALF-LIFE SPEECH SYSTEM SENTENCES. DO NOT MODIFY THIS FILE! Max of 1023 sentences.
+
+// countdown
+
+CTR0 zero
+CTR1 one second
+CTR2 two 
+CTR3 three seconds
+CTR4 four 
+CTR5 five seconds remaining
+CTR6 six
+CTR7 seven
+CTR8 eight 
+CTR9 nine
+CTR10 ten seconds remaining
+CTR11 eleven
+CTR12 twelve
+CTR13 thirteen
+CTR14 fourteen
+CTR15 fifteen seconds remaining
+CTR16 sixteen 
+CTR17 seventeen
+CTR18 eighteen
+CTR19 nineteen
+CTR20 twenty seconds remaining
+
+// doors, general
+NA0 access denied
+NA1 access is denied
+NA2 unauthorized access
+NA3 illegal access
+NA4 this door is locked
+NA5 unauthorized access
+NA6 entry forbidden
+NA7 entry not permitted
+NA8 no unauthorized personnel
+NA9 you do not have access to this facility
+NA10 (p102) sorry, you may not enter
+NA11 (p102) sorry, this door is locked
+NA12 (p102) please, move away from this area
+NA13 (p102) please, move away from door
+NA14 (p103) you will not get in
+NA15 (p103) entry is not an option
+NA16 (p104) will we do this all day
+NA17 (p104) move on immediately
+NA18 (p105) no, no, and no(p80)
+EA0 access granted
+EA1 access permitted
+EA2 entry granted
+EA3 entry permitted
+EA4 access authorized
+EA5 entry is permitted
+EA6 access authorized
+EA7 access to facility, granted
+EA8 access granted
+
+// doors, security lockout
+ND0 security lock is engaged
+ND1 secure area, no entry
+ND2 security lockout, no entry
+ND3 secure door, no entry
+ND4 security system in force
+ND5 security system armed, no entry
+ND6 door is secured
+ND7 illegal access, move away
+ED0 security lock disengaged
+ED1 security clear, proceed
+ED2 security lockout, released
+ED3 secure override accepted
+ED4 security access acknowledged
+ED5 security system disengaged
+ED6 door security disengaged
+
+// blast doors
+NF0 emergency blast door activated
+NF1 emergency blast shield activated
+NF3 the blast containment shield is down
+EF0 emergency blast door, open
+EF1 emergency blast shield, deactivated
+EF3 blast containment shield is, open
+
+// fire door
+NFIRE0 fire containment door is down
+EFIRE0 fire containment door, open
+
+// chemical door
+NCHEM0 chemical leak containment door activated
+ECHEM0 chemical leak containment door, open
+
+// radiation door
+NRAD0 radiation containment door activated
+ERAD0 radiation containment door, open
+
+// generic containment door
+NCON0 emergency containment door engaged
+ECON0 emergency containment door disengaged
+
+// broken locked door
+NG0 sorry, this door is inoperative
+NG1 sorry, door out of service
+NG2 door damage detected, please call service personnel
+
+// maintenance door
+NH0 no access, maintenance area
+NH1 no personnel permitted in maintenance area
+EH0 maintenance area access granted
+EH1 maintenance area door open
+
+// turrets, defensive systems
+
+T0 extreme hazard, defense system is armed in this zone
+T1 hazard area, defense system activated
+T2 danger, turret perimeter defense system armed
+T3 extreme hazard, nearest defense system engaged
+T4 danger, base defense turret system may power up
+T5 danger, automatic defense system activated
+
+// warnings
+
+WE0 warning, high voltage cable
+WE1 warning, high power cable
+WE2 warning, electric shock hazard
+WE3 warning, severe electric shock hazard
+
+// danger
+
+DR0 danger, radiation leak detected
+DR1 danger, radiation hazard detected
+DR2 danger, high radiation level detected
+DR3 danger, severe radiation hazard, evacuate area immediately
+DR4 danger, safety violation, extreme radiation level detected
+
+DC0 danger, chemical leak, area now a high health hazard
+DC1 danger, chemical coolant leak, health hazard zone
+DC2 danger, chemical containment breach, all personnel evacuate this area
+DC3 danger, supercooled chemical leak
+DC4 danger, supercooled helium leak
+
+DB0 danger, liquid biohazard leak in immediate area
+DB1 danger, coolant leak, severe biohazard now in this area
+DB2 danger, liquid biohazard released, evacuate area
+DB3 danger, biohazard detected in immediate area
+
+// training room
+
+TR_A three, two, one, deeoo(p110)
+TR_B deeoo(p110) (p102 t20) target system deactivated
+
+
+
+// HEV Suit
+
+// powerup
+
+HEV_AAx fvox/bell, HEV_logon, powerarmor_on, atmospherics_on,vitalsigns_on, automedic_on, weaponselect_on, munitionview_on, communications_on, safe_day
+HEV_A0 fvox/bell, HEV_logon
+
+HEV_A1 fvox/blip blip(p130) powermove_on
+HEV_A2 fvox/blip blip powerarmor_on
+HEV_A3 fvox/blip blip(p130) atmospherics_on
+HEV_A4 fvox/blip blip vitalsigns_on boop, boop, boop
+HEV_A5 fvox/blip blip(p130) munitionview_on
+HEV_A6 fvox/blip blip communications_on
+HEV_A7 fvox/blip blip(p70) weaponselect_on
+HEV_A8 fvox/blip blip(p70) automedic_on
+HEV_A9 fvox/fuzz power_level_is onehundred percent
+HEV_A10 fvox/safe_day, bell
+
+// medical
+HEV_DEAD0 fvox/beep beep, beep beep, beep, beep, flatline
+HEV_DEAD1 fvox/beep beep, beep beep, beep, flatline
+
+HEV_MED0 fvox/(p140) boop, boop, boop, (p100) innsufficient_medical
+HEV_MED1 fvox/(p140) boop, boop, boop, (p100) automedic_on
+HEV_MED2 fvox/(p140) boop, boop, boop, (p100) administering_medical
+
+HEV_HEAL0 fvox/(p140) boop, boop, boop, (p100) wound_sterilized, blip(p130 v50), blip(p130 v40), hiss, morphine_shot
+HEV_HEAL1 fvox/(p140) boop, boop, boop, (p100) torniquette_applied, bleeding_stopped
+HEV_HEAL2 fvox/(p140) boop, boop, boop, (p100) bleeding_stopped
+HEV_HEAL3 fvox/(p140) boop, boop, boop, (p100) blood_plasma
+HEV_HEAL4 fvox/(p140) boop, boop, boop, (p100) hiss, antitoxin_shot
+HEV_HEAL5 fvox/(p140) boop, boop, boop, (p100) hiss, antidote_shot
+HEV_HEAL6 fvox/(p140) boop, boop, boop, (p100) hiss, wound_sterilized
+HEV_HEAL7 fvox/(p140) boop, boop, boop, (p100) hiss, morphine_shot
+HEV_HEAL8 fvox/(p140) boop, boop, boop, (p100) medical_repaired
+
+HEV_DMG0 fvox/(p160) boop, boop, boop, (p100) minor_lacerations
+HEV_DMG1 fvox/(p160) boop, boop, boop, (p100) major_lacerations
+HEV_DMG2 fvox/(p160) boop, boop, boop, (p100) internal_bleeding
+HEV_DMG3 fvox/(p160) boop, boop, boop, (p100) blood_toxins
+HEV_DMG4 fvox/(p160) boop, boop, boop, (p100) minor_fracture
+HEV_DMG5 fvox/(p160) boop, boop, boop, (p100) major_fracture
+HEV_DMG6 fvox/(p160) boop, boop, boop, (p100) blood_loss
+HEV_DMG7 fvox/(p140) boop, boop, boop, (p100) seek_medic
+
+HEV_HLTH0 fvox/(p120) beep, beep, (p100) health_dropping
+HEV_HLTH1 fvox/(p120) beep, beep, (p100) health_dropping2
+HEV_HLTH2 fvox/(p120) beep, beep, beep, (p100) health_critical
+HEV_HLTH3 fvox/(p120) beep, beep, beep, (p100) near_death
+HEV_HLTH4 fvox/(p140) beep, beep, (p100) health_dropping2, evacuate_area
+HEV_HLTH5 fvox/(p140) beep, beep, beep, (p100) health_critical, evacuate_area
+HEV_HLTH6 fvox/(p140) beep, beep, beep, (p100) near_death, evacuate_area immediately
+
+HEV_SHOCK fvox/(p120) beep, beep, (p100) warning, shock_damage
+HEV_FIRE fvox/(p120) beep, beep, (p100) warning, heat_damage
+
+// items
+HEV_AIM_ON fvox/blip targetting_system activated
+HEV_AIM_OFF fvox/blip targetting_system deactivated
+HEV_BATTERY fvox/blip get_battery acquired
+HEV_MEDKIT fvox/blip get_medkit(v80)
+
+HEV_PISTOL fvox/blip get_pistol acquired
+HEV_SHOTGUN fvox/blip get_shotgun
+HEV_GRENADE fvox/blip get_grenade acquired
+HEV_ASSAULT fvox/blip get_assault acquired
+HEV_44PISTOL fvox/blip get_44pistol acquired
+HEV_RPG fvox/blip get_rpg acquired
+HEV_SATCHEL fvox/blip get_satchel acquired
+HEV_TRIPMINE fvox/blip get_tripmine acquired
+HEV_HORNET fvox/blip get_alien_wpn
+HEV_SQUEEK fvox/blip get_alien_wpn
+HEV_EGON fvox/blip get_egon acquired
+HEV_GAUSS fvox/blip get_gauss acquired
+HEV_XBOW fvox/blip get_crossbow acquired
+
+HEV_9MM fvox/blip get_9mmclip acquired
+HEV_44AMMO fvox/blip get_44ammo acquired
+HEV_BUCKSHOT fvox/blip get_buckshot acquired
+HEV_BOLTS fvox/blip get_bolts acquired
+HEV_RPGAMMO fvox/blip get_rpgammo acquired
+HEV_AGRENADE fvox/blip get_assaultgren acquired
+HEV_EGONPOWER fvox/blip get_egonpower acquired
+
+// time
+
+//HEV_C1t fvox/bell time_is_now one AM
+//HEV_C13t fvox/bell time_is_now one PM
+
+// power levels
+
+HEV_D00 fvox/fuzz fuzz(p130), power_restored
+HEV_D01 fvox/fuzz fuzz(p80), hev_shutdown
+
+HEV_0P fvox/fuzz fuzz, power_below five percent 
+HEV_1P fvox/fuzz fuzz, power_restored(e30), ten percent
+HEV_2P fvox/fuzz fuzz, power_restored(e30), fifteen percent
+HEV_3P fvox/fuzz fuzz, power_restored(e30), twenty percent
+HEV_4P fvox/fuzz fuzz, power_restored(e30), twenty five percent
+HEV_5P fvox/fuzz fuzz, power_restored(e30), thirty percent
+HEV_6P fvox/fuzz fuzz, power_restored(e30), thirty five percent
+HEV_7P fvox/fuzz fuzz, power_restored(e30), fourty percent
+HEV_8P fvox/fuzz fuzz, power_restored(e30), fourty five percent
+HEV_9P fvox/fuzz fuzz, power_restored(e30), fifty percent
+HEV_10P fvox/fuzz fuzz, power_restored(e30), fifty five percent
+HEV_11P fvox/fuzz fuzz, power_restored(e30), sixty percent
+HEV_12P fvox/fuzz fuzz, power_restored(e30), sixty five percent
+HEV_13P fvox/fuzz fuzz, power_restored(e30), seventy percent
+HEV_14P fvox/fuzz fuzz, power_restored(e30), seventy five percent
+HEV_15P fvox/fuzz fuzz, power_restored(e30), eighty percent
+HEV_16P fvox/fuzz fuzz, power_restored(e30), eighty five percent
+HEV_17P fvox/fuzz fuzz, power_restored(e30), ninety percent
+HEV_18P fvox/fuzz fuzz, power_restored(e30), ninety five percent
+HEV_19P fvox/fuzz fuzz, power_level_is onehundred percent
+
+// weapon/ammo
+
+HEV_AMO0 fvox/blip ammo_depleted
+
+// suit
+
+HEV_V0 fvox/blip, voice_on
+HEV_V1 fvox/blip, voice_off
+
+HEV_E0 fvox/buzz buzz, armor_gone
+HEV_E1 fvox/buzz, armor_gone
+HEV_E2 fvox/buzz, hev_critical_fail
+HEV_E3 fvox/buzz, hev_general_fail
+HEV_E4 fvox/buzz, hev_damage
+HEV_E5 fvox/buzz, powermove_overload
+
+// time remaining countdown
+
+//HEV_F10t fvox/bell time_remaining ten seconds
+//HEV_F15t fvox/bell time_remaining fifteen seconds
+//HEV_F20t fvox/bell time_remaining twenty seconds
+//HEV_F30t fvox/bell time_remaining thirty seconds
+
+// detections
+
+HEV_DET0 fvox/blip blip blip, biohazard_detected
+HEV_DET1 fvox/blip blip blip, chemical_detected 
+HEV_DET2 fvox/blip blip blip, radiation_detected
+HEV_DET3 fvox/blip blip blip, bio_reading
+HEV_DET4 fvox/blip blip blip, antitoxin_shot(e50), onehundred percent
+HEV_DET5 fvox/blip blip blip, antitoxin_shot(e25) radiation_detected(e50), onehundred percent
+
+//HEV_GR0r fvox/range twenty meters(t60)
+//HEV_GR1r fvox/range nineteen meters
+//HEV_GR2r fvox/range eighteen meters
+
+
+// SCIENTIST
+
+SC_OK0 hybrid/letsgo
+SC_OK1 hybrid/leadtheway
+SC_OK2 hybrid/letsgo
+SC_OK3 hybrid/alright
+SC_OK4 hybrid/nowhereelse
+SC_OK5 hybrid/letsgo
+SC_OK6 hybrid/alright
+SC_OK7 hybrid/leadtheway
+SC_OK8 hybrid/nowhereelse
+
+SC_WAIT0 hybrid/illwait
+SC_WAIT1 hybrid/istay
+SC_WAIT2 hybrid/illwait
+SC_WAIT3 hybrid/istay
+SC_WAIT4 hybrid/illwait
+SC_WAIT5 hybrid/istay
+SC_WAIT6 hybrid/illwait
+
+// fail to follow player any more
+SC_STOP0 hybrid/stop1
+SC_STOP1 hybrid/stop1
+SC_STOP2 hybrid/stop1
+SC_STOP3 hybrid/stop1
+
+// player is staring at scientist
+SC_STARE0 hybrid/whatisgoingon
+SC_STARE1 hybrid/iknowwhy
+SC_STARE2 hybrid/whatisgoingon
+
+SC_HELLO0 hybrid/whoareyou
+SC_HELLO1 hybrid/whatisgoingon
+SC_HELLO2 hybrid/whoareyou
+SC_HELLO3 hybrid/whatisgoingon
+SC_HELLO4 hybrid/whoareyou
+SC_HELLO5 hybrid/whatisgoingon
+SC_HELLO6 hybrid/whoareyou
+SC_HELLO7 hybrid/whatisgoingon
+SC_HELLO8 hybrid/whoareyou
+
+SC_IDLE0 hybrid/howlong
+SC_IDLE1 hybrid/whoresponsible
+SC_IDLE2 hybrid/happening
+SC_IDLE3 hybrid/iknowwhy
+SC_IDLE4 hybrid/happening
+SC_IDLE5 hybrid/howlong
+SC_IDLE6 hybrid/whoresponsible
+SC_IDLE7 hybrid/iknowwhy
+SC_IDLE8 hybrid/happening
+SC_IDLE9 hybrid/whoresponsible
+SC_IDLE10 hybrid/howlong
+SC_IDLE11 hybrid/happening
+SC_IDLE12 hybrid/whoresponsible
+SC_IDLE13 hybrid/iknowwhy
+
+SC_NOGO hybrid/stop
+
+SC_HEAR0 hybrid/ihearsomething
+SC_HEAR1 hybrid/ihearsomething
+SC_HEAR2 hybrid/ihearsomething
+
+SC_WOUND0 hybrid/iwounded
+SC_WOUND1 hybrid/iwounded
+
+SC_MORTAL0 hybrid/iwoundedbad
+SC_MORTAL1 hybrid/iwoundedbad
+
+SC_PLFEAR0 hybrid/whatyoudoing
+SC_PLFEAR1 hybrid/whyyoudoing
+SC_PLFEAR2 hybrid/whatyoudoing
+SC_PLFEAR3 hybrid/whyyoudoing
+SC_PLFEAR4 hybrid/whatyoudoing
+SC_PLFEAR5 hybrid/whyyoudoing
+
+SC_FEAR0 hybrid/feelslikemyskull
+SC_FEAR1 hybrid/feelslikemyskull
+SC_FEAR2 hybrid/feelslikemyskull
+SC_FEAR3 hybrid/feelslikemyskull
+SC_FEAR4 hybrid/feelslikemyskull
+SC_FEAR5 hybrid/feelslikemyskull
+SC_FEAR6 hybrid/feelslikemyskull
+SC_FEAR7 hybrid/feelslikemyskull
+SC_FEAR8 hybrid/feelslikemyskull
+SC_FEAR9 hybrid/feelslikemyskull
+SC_FEAR10 hybrid/feelslikemyskull
+SC_FEAR11 hybrid/feelslikemyskull
+SC_FEAR12 hybrid/feelslikemyskull
+
+SC_SCREAM0 hybrid/stop
+SC_SCREAM1 hybrid/stop
+SC_SCREAM2 hybrid/stop
+SC_SCREAM3 hybrid/stop
+SC_SCREAM4 hybrid/stop
+SC_SCREAM5 hybrid/stop
+SC_SCREAM6 hybrid/stop
+SC_SCREAM7 hybrid/stop
+SC_SCREAM8 hybrid/stop
+SC_SCREAM9 hybrid/stop
+SC_SCREAM10 hybrid/stop
+SC_SCREAM11 hybrid/stop
+SC_SCREAM12 hybrid/stop
+SC_SCREAM13 hybrid/stop
+SC_SCREAM14 hybrid/stop
+
+// predisaster scientist
+
+SC_PHELLO0 hybrid/whoareyou
+SC_PHELLO1 hybrid/whoareyou
+SC_PHELLO2 hybrid/whoareyou
+SC_PHELLO3 hybrid/whoareyou
+SC_PHELLO4 hybrid/whoareyou
+SC_PHELLO5 hybrid/whoareyou
+SC_PHELLO6 hybrid/whoareyou
+
+// outdoor
+WILD0 ambience/(v30) quail1(p103), quail1(t10), quail1(p101)
+WILD1 ambience/bee1(v75)
+WILD2 ambience/bee2(p105)
+WILD3 ambience/hawk1(p98 v30)
+WILD4 ambience/hawk1(p105 v20)
+WILD5 ambience/(v50 p97) quail1, quail1(t15)
+WILD6 ambience/bee1(p98 v50)
+WILD7 ambience/bee1(p97)
+WILD8 ambience/quail1(p98 v20))
+WILD9 ambience/des_wind1(v50)
+WILD10 ambience/des_wind2(v50)
+WILD11 ambience/des_wind3(v50)
+WILD9 ambience/des_wind1(v40 p105)
+WILD10 ambience/des_wind2(v40 p98)
+WILD11 ambience/des_wind3(v40 p103)
+WILD12 ambience/wren1(v80)
+
+// rocket
+ROCKET0 ambience/steamburst1
+ROCKET1 ambience/steamburst1(p80)
+ROCKET2 ambience/steamburst1(p120)
+ROCKET3 ambience/rocket_groan1
+ROCKET4 ambience/rocket_groan2
+ROCKET5 ambience/rocket_groan3
+ROCKET6 ambience/rocket_groan4
+
+// distant war zone
+FAR_WAR0 ambience/(v50) distantmortar1
+FAR_WAR1 ambience/(v60) distantmortar2
+FAR_WAR2 ambience/(v50) distantmortar3
+FAR_WAR3 ambience/(v15) biggun3
+FAR_WAR4 ambience/(v20) rifle2
+FAR_WAR5 ambience/(v10 p120) jetflyby1
+FAR_WAR6 ambience/(v10) mgun_burst4
+FAR_WAR7 ambience/(v30) distantmortar1 distantmortar3 distantmortar2
+FAR_WAR8 ambience/(v10) biggun2 biggun2 biggun2
+FAR_WAR9 ambience/(v15) mgun_burst1
+FAR_WAR10 ambience/(v20) biggun1 rifle2
+FAR_WAR11 ambience/(v60) distantmortar1 distantmortar1, distantmortar2, distantmortar1
+FAR_WAR12 ambience/(v30) distantmortar2, distantmortar2 distantmortar2 distantmortar2, distantmortar3 distantmortar1
+FAR_WAR13 ambience/(v10) mgun_burst2
+FAR_WAR14 ambience/(v15) mgun_burst3 mgun_burst3
+FAR_WAR15 ambience/(v10) rifle1 rifle1
+FAR_WAR16 ambience/(v10) biggun2, biggun2 biggun2
+
+// near war zone
+NEAR_WAR0 ambience/(v60) mgun_burst3 mgun_burst3 mgun_burst3(v50)
+NEAR_WAR1 ambience/(v60) rifle1 rifle2 rifle2 rifle1 rifle1
+NEAR_WAR2 ambience/(v60) alienflyby1
+NEAR_WAR3 ambience/(v60) biggun3 biggun3 biggun3
+NEAR_WAR4 ambience/(v60) mgun_burst4 mgun_burst3 rifle1 mgun_burst4
+NEAR_WAR5 ambience/(v60) jetflyby1
+NEAR_WAR6 ambience/(v60) mgun_burst4 mgun_burst3
+NEAR_WAR7 ambience/distantmortar1 distantmortar3 distantmortar2
+NEAR_WAR8 ambience/(v60) biggun2 biggun2 biggun2 biggun2(v30)
+NEAR_WAR9 ambience/(v60) mgun_burst1 mgun_burst1 rifle2 mgun_burst3
+NEAR_WAR10 agrunt/(v40) ag_fire1 ag_fire2 ag_fire2 ag_fire1
+NEAR_WAR11 ambience/distantmortar1 distantmortar1, distantmortar2
+NEAR_WAR12 ambience/(v60) mgun_burst2 mgun_burst2 mgun_burst3 mgun_burst2
+

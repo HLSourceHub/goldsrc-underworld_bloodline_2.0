@@ -1,0 +1,205 @@
+165
+selection		320 320hud1	160	160	80	20
+
+bucket1			320 320hud2	108	16	12	12
+bucket2			320 320hud2	108	28	12	12
+bucket3			320 320hud2	108	40	12	12	
+bucket4			320 320hud2	108	52	12	12
+bucket5			320 320hud2	108	64	12	12					
+bucket0			320 320hud2	108	76	12	12
+
+dmg_bio			320 320hud4	0	0	32	32
+dmg_poison		320 320hud4	0	0	32	32
+dmg_chem		320 320hud4	32	0	32	32
+dmg_cold		320 320hud4	64	0	32	32
+dmg_drown		320 320hud4	96	0	32	32
+dmg_heat		320 320hud4	128	0	32	32
+dmg_gas			320 320hud4	160	0	32	32
+dmg_rad			320 320hud4	192	0	32	32
+dmg_shock		320 320hud4	224	0	32	32
+
+number_0		320 320hud2	0	0	12  16
+number_1		320 320hud2	12	0	12  16
+number_2		320 320hud2	24	0	12  16
+number_3		320 320hud2	36	0	12  16
+number_4		320 320hud2	48	0	12  16
+number_5		320 320hud2	60	0	12  16
+number_6		320 320hud2	72	0	12  16
+number_7		320 320hud2	84	0	12  16
+number_8		320 320hud2	96	0	12  16
+number_9		320 320hud2	108	0	12  16
+
+snumber_0		320 320hud2	0	0	12  16
+snumber_1		320 320hud2	12	0	12  16
+snumber_2		320 320hud2	24	0	12  16
+snumber_3		320 320hud2	36	0	12  16
+snumber_4		320 320hud2	48	0	12  16
+snumber_5		320 320hud2	60	0	12  16
+snumber_6		320 320hud2	72	0	12  16
+snumber_7		320 320hud2	84	0	12  16
+snumber_8		320 320hud2	96	0	12  16
+snumber_9		320 320hud2	108	0	12  16
+
+divider			320 320hud2	120	0	1	20
+
+cross			320 320hud2	0	72	16	16
+
+suit_full		320 320hud2	0	52	20	20
+suit_empty		320 320hud2	20	52	20	20
+
+flash_full		320 320hud2	16	72	18	16
+flash_empty		320 320hud2	34	72	18	16
+flash_beam		320 320hud2	52	72	6	16
+
+train_back		320	320hud3 0	0	48	48
+train_stop		320	320hud3 48	0	48	48
+train_forward1	320	320hud3 96	0	48	48
+train_forward2	320	320hud3 144	0	48	48
+train_forward3	320	320hud3 192	0	48	48
+
+title_half		320 320hud3 0	48	128	16
+title_life		320 320hud3 128 48	116	16
+
+d_whip		320	320hud1	0	208	48	16
+d_p99			320	320hud1	0	224	32	16
+d_usp			320	320hud1	0	240	32	16
+d_tmp			320	320hud1	48	208	48	16
+d_shotgun		320	320hud1	48	224	48	16
+d_bolt			320	320hud1	48	240	48	16
+d_crossbow		320	320hud1	48	240	48	16
+d_mp5k		320	320hud1	96	208	48	16
+d_gauss		320	320hud1	96	224	32	16
+d_lightning		320	320hud1	96	240	32	16
+d_deagle		320	320hud1	144	208	48	16
+d_grenade		320	320hud1	144	224	32	16
+d_satchel		320	320hud1	144	240	32	16
+d_spider		320	640hud1	192	192	32	16
+d_star		320	320hud1	192	224	32	16
+d_skull			320	320hud1	192	240	32	16
+d_tracktrain		320	320hud1	224	208	32	16
+
+item_battery	320 320hud2	48	52	20	20
+item_healthkit	320	320hud2	68	52	20	20
+item_longjump	320	320hud2	88	52	20	20
+
+grenade			320 320hud2     36      34      18      18
+
+uw_clip_frame	320 320uwclip	0	0	80	16
+uw_clip_empty	320 320uwclip	14	32	53	16
+uw_clip_full	320 320uwclip	14	16	53	16
+
+uw_health_frame	320 320uwhealth	0	0	144	16
+uw_health_empty	320 320uwhealth	18	32	106	16
+uw_health_full	320 320uwhealth	18	16	106	16
+
+uw_stamina_frame	320 320uwstamina	0	0	144	8
+uw_stamina_full	320 320uwstamina	18	8	106	8
+uw_stamina_empty	320 320uwstamina	18	16	106	8
+uw_stamina_low	320 320uwstamina	18	24	106	8
+
+uw_banner		320 uwbanner	0	0	176	48
+
+//===========================================
+
+
+selection		640 640hud3	0	180	170	45
+
+bucket1			640 640hud7	168	72	20	20
+bucket2			640 640hud7	188	72	20	20		
+bucket3			640 640hud7	208	72	20	20		
+bucket4			640 640hud7	168	92	20	20		
+bucket5			640 640hud7	188	92	20	20		
+bucket0			640 640hud7	208	92	20	20		
+
+dmg_bio			640 640hud8	128	0	64	64
+dmg_poison		640 640hud8	128	0	64	64
+dmg_chem		640 640hud8	0	0	64	64
+dmg_cold		640 640hud9	64	0	64	64
+dmg_drown		640 640hud8	64	0	64	64
+dmg_heat		640 640hud9	128	0	64	64
+dmg_gas			640 640hud9	0	0	64	64
+dmg_rad			640 640hud9	192 0	64	64
+dmg_shock		640 640hud8	192	0	64	64
+
+number_0		640 640hud7	0	0	20	24
+number_1		640 640hud7	24	0	20	24
+number_2		640 640hud7	48	0	20	24
+number_3		640 640hud7	72	0	20	24
+number_4		640 640hud7	96	0	20	24
+number_5		640 640hud7	120	0	20	24
+number_6		640 640hud7	144	0	20	24
+number_7		640 640hud7	168	0	20	24
+number_8		640 640hud7	192	0	20	24
+number_9		640 640hud7	216	0	20	24
+
+snumber_0		640 320hud2	0	0	12  16
+snumber_1		640 320hud2	12	0	12  16
+snumber_2		640 320hud2	24	0	12  16
+snumber_3		640 320hud2	36	0	12  16
+snumber_4		640 320hud2	48	0	12  16
+snumber_5		640 320hud2	60	0	12  16
+snumber_6		640 320hud2	72	0	12  16
+snumber_7		640 320hud2	84	0	12  16
+snumber_8		640 320hud2	96	0	12  16
+snumber_9		640 320hud2	108	0	12  16
+
+divider			640 640hud7	240	0	2	40
+
+cross			640 640hud7	80	24	32	32
+
+suit_full		640 640hud7	0	24	40	40
+suit_empty		640 640hud7	40	24	40	40
+
+flash_full		640 640hud7	160	24	32	32
+flash_empty		640 640hud7	112	24	32	32
+flash_beam		640 640hud7 144	24	16	32
+
+train_back		640	640hud5 170	0	72	72
+train_stop		640	640hud5 170	72	72	72
+train_forward1	640	640hud5 170	144	72	72
+train_forward2	640	640hud6 170	0	72	72
+train_forward3	640	640hud6 170	72	72	72
+
+autoaim_c		640	crosshairs	96	0	24	24
+
+title_half		640 640hud4	0	226	256	30
+title_life		640 640hud5	0	226	220	30
+
+d_whip		640	640hud1	192	0	48	16
+d_p99			640	640hud1	192	16	32	16
+d_usp			640	640hud1	192	32	32	16
+d_tmp			640	640hud1	192	48	48	16
+d_shotgun		640	640hud1	192	64	48	16
+d_bolt			640	640hud1	192	80	48	16
+d_crossbow		640	640hud1	192	80	48	16
+d_mp5k		640	640hud1	192	96	48	16
+d_gauss		640	640hud1	192	112	32	16
+d_lightning		640	320hud1	96	240	32	16
+d_deagle		640	640hud1	192	144	48	16
+d_grenade		640	640hud1	192	160	32	16
+d_satchel		640	640hud1	192	176	32	16
+d_spider		640	640hud1	192	192	32	16
+d_star			640	640hud1	192	208	32	16
+d_skull			640	640hud1	192	224	32	16
+d_tracktrain		640	640hud1	192	240	32	16
+
+item_battery	640 640hud2	176	0	44	44
+item_healthkit	640 640hud2	176	48	44	44
+item_longjump	640 640hud2	176	96	44	44
+
+grenade			640 640hud7     48      96      24      24
+
+uw_clip_frame	640 640uwclip	0	0	170	24
+uw_clip_empty	640 640uwclip	26	48	122	24
+uw_clip_full	640 640uwclip	26	24	122	24
+
+uw_health_frame	640 640uwhealth	0	0	256	24
+uw_health_empty	640 640uwhealth	24	48	208	24
+uw_health_full	640 640uwhealth	24	24	208	24
+
+uw_stamina_frame	640 640uwstamina	0	0	256	12
+uw_stamina_full	640 640uwstamina	24	12	208	12
+uw_stamina_empty	640 640uwstamina	24	24	208	12
+uw_stamina_low	640 640uwstamina	24	36	208	12
+
+uw_banner		640 uwbanner	0	0	176	48
